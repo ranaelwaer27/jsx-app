@@ -1,0 +1,26 @@
+import react, {useStat, useEffect} from 'react'
+
+export default function header(){
+    return(
+        <div style="border:solid 1px black;max-width:100vw">
+
+ <h1 class="title red">Your name here</h1>
+
+ <br >
+
+ <img src="/imageInSrc.jpg" >
+
+ <br >
+
+ <img src="/imageInPublic.jpg" >
+
+</div>
+
+<video width="320" height="240" controls>
+
+ <source src="myVideo.mp4" type="video/mp4" >
+
+</video>
+
+    )
+}
